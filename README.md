@@ -1,4 +1,4 @@
-# room database
+# room database Android
 
 #1 - create entity classes like Tables (ex. UserEntity.java) 
      define column names and their column info
