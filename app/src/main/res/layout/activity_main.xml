@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="50dp"
+        android:padding="15dp"
+        >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text_heading"
+
+        android:text="@string/user_name"/>
+    <EditText
+        android:id="@+id/user_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="40dp"
+        android:layout_marginTop="3dp"
+        android:background="@drawable/round_corner"
+        android:paddingLeft="5dp"
+        android:hint="@string/user_name"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text_heading"
+
+        android:layout_marginTop="15dp"
+
+        android:text="@string/name"/>
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="40dp"
+        android:layout_marginTop="3dp"
+        android:background="@drawable/round_corner"
+        android:paddingLeft="5dp"
+        android:hint="@string/name"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/text_heading"
+
+        android:text="@string/password"/>
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="40dp"
+        android:layout_marginTop="3dp"
+        android:background="@drawable/round_corner"
+        android:paddingLeft="5dp"
+        android:hint="@string/password"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/text_heading"
+
+        android:text="@string/address"/>
+    <EditText
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="40dp"
+        android:layout_marginTop="3dp"
+        android:background="@drawable/round_corner"
+        android:paddingLeft="5dp"
+        android:hint="@string/address"
+        android:layout_marginBottom="20dp"
+        />
+
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/submint"
+            android:layout_margin="5dp"
+            android:minHeight="50dp"
+            android:textColor="@color/colorPrimary"
+            android:background="@drawable/round_corner_with_white_background"
+            />
+
+
+        <TextView
+            android:id="@+id/viewAll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:gravity="center"
+            android:text="View All User Data"
+            android:textColor="@color/colorPrimary"
+            />
+
+
+    </LinearLayout>
+</LinearLayout>

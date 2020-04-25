@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">RoomDatabaseAndroid</string>
+    <string name="name">Name</string>
+    <string name="user_name">User Name</string>
+    <string name="password">Password</string>
+    <string name="address">Address</string>
+    <string name="submint">Submint</string>
+</resources>
